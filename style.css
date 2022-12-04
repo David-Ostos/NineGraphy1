@@ -313,38 +313,6 @@ a img.aligncenter {
 #mainNav.navbar-dark{
 	background: #ffffff;
 }
-
-.hamburger{
-	right: 30px;
-	top: 22px;
-	left: auto;
-}
-.hamburger__icon, .hamburger__icon::before, .hamburger__icon::after {
-    background-color: #333333;
-	width: 35px;
-	height: 4px;
-}
-
-.hamburger__icon::before{
-	top: -10px;
-}
-.hamburger__icon::after {
-    top: 10px;
-}
-
-.hamburger.active .hamburger__icon::before {
-	-moz-transform: translateY(10px)rotate(45deg);
-	-ms-transform: translateY(10px)rotate(45deg);
-	-webkit-transform: translateY(10px)rotate(45deg);
-	transform: translateY(10px)rotate(45deg);
-}
-.hamburger.active .hamburger__icon::after {
-	-moz-transform: translateY(-10px)rotate(-45deg);
-	-ms-transform: translateY(-10px)rotate(-45deg);
-	-webkit-transform: translateY(-10px)rotate(-45deg);
-	transform: translateY(-10px)rotate(-45deg);
-}
-
 .fat-nav li{
 	width: 14.28%;
 	float: left;
@@ -390,6 +358,11 @@ a img.aligncenter {
 	font-weight: 700;
 	font-size: 62px;
 	text-transform: uppercase;
+}
+
+.heading h1 b{
+    font-weight: 700;
+    color: #db5c87;
 }
 .heading p{
 	font-size: 18px;
@@ -2241,8 +2214,8 @@ select.mobile-device {
     margin: 0;
     font-weight: 400;
     font-size: 20px;
-    text-transform: capitalize;
-    line-height: !important;
+    text-transform: capitalize;/*
+    line-height: !important;*/
 }
 
 .footer {
@@ -2492,8 +2465,8 @@ select.mobile-device {
     font-weight: 400;
     color: #999 !important;
     margin: 0 !important;
-    padding: 0 !important;
-    line-height: 1 !important:
+    padding: 0 !important;/*
+    line-height: 1 !important:*/
 }
 
 .stat-wrap p {
@@ -2501,8 +2474,8 @@ select.mobile-device {
     color: #ffffff;
     margin: 0;
     font-weight: 300;
-    padding: 4px 0 0;
-    line-height: 1 !important:
+    padding: 4px 0 0;/*
+    line-height: 1 !important:*/
 }
 
 #preloader {

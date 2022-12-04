@@ -103,16 +103,21 @@
 	#mainNav {
 		background-color: #333333;
 	}
+
+	.fat-nav .fat-nav__container ul{
+		display: flex;
+		flex-direction: column;
+	}
+	.fat-nav__container__lista{
+		height: 100vw;
+	}
 	.navbar-dark .navbar-brand{
 		width: 55%;
 	}
 	.navbar-dark .navbar-nav .nav-link::after{
 		display: none;
 	}
-	.fat-nav li{
-		float: none;
-		width: 100%;
-	}
+	
 	.heading h1{
 		font-size: 28px;
 	}
