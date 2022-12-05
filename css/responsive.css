@@ -83,6 +83,9 @@
 	.section-title p{
 		font-size: 14px;
 	}
+	.logos__redes__icon{
+		font-size: 4rem ;
+	}    
 	#clouds{
 		margin-top: -35%;
 	}

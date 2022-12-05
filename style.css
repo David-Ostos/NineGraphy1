@@ -1794,7 +1794,12 @@ hr.invis1 {
 /*------------------------------------------------------------------
     CONTACT
 -------------------------------------------------------------------*/
-
+.logos__redes{
+    display: flex;
+    justify-content: space-around;
+    font-size: 7rem;
+    padding-top: 5rem;
+}    
 .bootstrap-select {
     width: 100% \0;
     /*IE9 and below*/
