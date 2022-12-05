@@ -1,3 +1,6 @@
+.head{
+    display: none;
+}
 .head__container{
     display: flex;
     justify-content: space-between;
