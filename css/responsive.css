@@ -55,6 +55,9 @@
 	#mainNav {
 		background-color: #333333;
 	}
+	.head{
+		display: none;
+	}
 	.navbar-dark .navbar-brand{
 		width: 55%;
 	}
