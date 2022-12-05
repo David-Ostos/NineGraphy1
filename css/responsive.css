@@ -103,6 +103,9 @@
 	#mainNav {
 		background-color: #333333;
 	}
+	.head{
+		display: none;
+	}
 
 	.fat-nav .fat-nav__container ul{
 		display: flex;

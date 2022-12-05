@@ -14,3 +14,11 @@
     display: flex;
     align-items: center;
 }
+
+.head__container__list b{
+    color: #db5c87;
+}
+
+.nav__container{
+    display: flex;
+}

@@ -59,7 +59,7 @@ body.demos .service-widget {
 }
 
 body.demos .container-fluid {
-    max-width: 1080px
+    max-width: 1080px;
 }
 
 a {
@@ -479,7 +479,10 @@ xclip
 .section.lb {
     background-color: #f2f3f5;
 }
-
+/*.service__fondo{
+    background: url(images/bg.png) no-repeat center center #333333;
+    color: #f2f3f5;
+}*/
 .section.db {
     background-color: #111111;
 }
@@ -889,6 +892,7 @@ xclip
 }
 #reviews{
 	position: relative;
+    display: none;
 }
 #reviews::before{
 	content: "";
