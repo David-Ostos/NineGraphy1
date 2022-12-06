@@ -655,10 +655,14 @@ xclip
 	line-height: 90px;
 	margin: 0 auto;
 	background: #e45050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .ser-icon i{
 	font-size: 50px;
 	color: #ffffff;
+    font-weight: 900;
 }
 .services-inner-box h2{
 	font-size: 22px;
